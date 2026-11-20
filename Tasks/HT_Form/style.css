@@ -1,0 +1,44 @@
+body{
+    background-color: rgba(31, 160, 31, 0.86);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width:250px;
+    margin: 230px auto;
+    background-color: white;
+    border: 5px solid rgba(23, 131, 23, 0.943);
+    border-radius: 10px;
+    outline: 2px solid rgb(23, 160, 39);
+    padding: 10px;
+}
+
+h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+.contact{
+    width: 230px;
+    margin: 4px auto;
+    font-size: 14px;
+    border: 2px solid rgba(128, 128, 128, 0.286);
+    padding: 5px;
+    border-radius: 4px;
+}
+
+button{
+    background-color: rgba(0, 128, 0, 0.898);
+    color: white;
+    letter-spacing: 5px;
+    border: 1px solid green;
+    border-radius: 10px;
+    padding: 5px 80px;
+    margin: 15px auto;
+}

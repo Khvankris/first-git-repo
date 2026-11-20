@@ -1,0 +1,21 @@
+a:link{
+    color: black;
+}
+a:visited{
+    color: aqua;
+}
+a:hover{
+    text-transform: uppercase;
+    color: blue;
+}
+a:active{
+    color: orangered;
+}
+input:focus{
+    background-color: red;
+}
+
+img{
+    border-radius: 50%;
+    
+}
