@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(38, 46, 51, 0.2);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container{
+    width: 95%;
+    margin: 50px auto;
+    min-height: calc(100vh - 80px);
+    padding: 0;
+    background-color: rgba(227, 232, 238, 0.597);
+    outline: 5px inset rgba(115, 108, 108, 0.321);
+    border-radius: 5px;
+}
+
+header, ul, .icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header{
+    padding: 15px 40px;
+}
+
+li{
+    margin: 0 10px;
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.logo img{
+    width: 60px;
+}
+
+.icons img{
+    width: 40px;
+}
+
+main{
+    display: flex;
+    height: 80vh;
+}
+.first, .second{
+    flex: 1;
+}
+.first{
+    padding: 90px 40px ;
+}
+.space{
+    padding-top: 120px;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.second img{
+    display: block;
+    max-width: 100%;
+    height: 750px; 
+}
+
+h4{
+    font-size: 25px;
+}
+h1{
+    font-size: 80px;
+    
+}
+h2{
+    font-size: 40px;
+    font-weight:500;
+    color: rgba(21, 91, 220, 0.883);
+}
+button{
+    font-size: 25px;
+    color: white;
+    padding: 10px 20px;
+    background-color: rgb(29, 29, 60);
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+button:hover{
+    color: black;
+    font-weight: bold;
+    background-color: rgb(180, 175, 175);
+    border:4px solid rgb(72, 71, 71);
+}
+
+h4, h1, h2, button{
+    margin: 10px auto;
+}
+
